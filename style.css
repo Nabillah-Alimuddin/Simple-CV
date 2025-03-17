@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+.cv-container {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 5px 0;
+    color: #333;
+}
+
+p {
+    color: #08497bb2;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #08497bb2;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #edededdc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #08497bb2;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #9bcff65f;
+}
+
+.experience td{
+    background-color:#9bcff65f;
+}
+
+.contact-info td:first-child {
+    background-color: #08497bb2;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.contact-info td:last-child {
+    background-color: #9bcff65f;
+    table-layout: fixed;
+    word-break: break-word;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    padding: 8px;
+}
